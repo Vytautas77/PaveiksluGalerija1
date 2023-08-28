@@ -1,0 +1,72 @@
+body{
+margin: 0;
+font-family: 'Comfortaa', cursive;
+}
+header{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.languageBar{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    box-sizing: border-box;
+}
+.laguageFlag{
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.laguageFlag li a img{
+    width: 1.5rem;
+    transition: 0.3s;
+}
+.laguageFlag li a img:hover{
+    scale: 1.3;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FF387E;
+    padding-bottom: 1rem;
+}
+.navbarContent{
+display: flex;
+gap: 3rem;
+}
+.navbarContent a{
+    text-decoration: none;
+    color: #FF387E;
+    transition: 0.3s;
+}
+.navbarContent a:hover{
+    scale: 1.3;
+}
+.navbarHref{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.navbarHref a img{
+    width: 2rem;
+    transition: 0.3s;
+}
+.navbarHref a img:hover{
+    scale: 1.3;
+}
+.addBtn{
+    width: 8rem;
+    border-radius: 10rem;
+    padding: 0.5rem 0.1rem;
+    color:white;
+    font-weight: 600;
+    background-color:#FF387E;
+    cursor: pointer;
+}
+.addBtn:hover{
+    background-color: #5d132d;
+}
+.logo{
+    width: 100px;
+}
