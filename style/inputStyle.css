@@ -1,0 +1,26 @@
+.inputBox{
+    width: 70%;
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #f8e8ed;
+    padding: 0.5rem 2rem;
+
+}
+.inputBox input{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    color: #FF387E;
+}
+.buttonAdd{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    color: #FF387E;
+    background-color: #f8e8ed;
+    cursor: pointer;
+}
+.infoMesenger {
+    padding-left: 2rem;
+    color: red;
+}
