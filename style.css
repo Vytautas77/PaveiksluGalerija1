@@ -70,3 +70,46 @@ gap: 3rem;
 .logo{
     width: 100px;
 }
+.wrapper{
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.wrapperLink{
+    padding-top: 1rem;
+    width: 100%;
+    text-decoration: none;
+    color: #FF387E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8e8ed;
+    border-radius: 1rem;
+    
+}
+.pictureUrl{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+}
+.contentDiv{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 2rem;
+}
+.leftDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 2rem;
+}

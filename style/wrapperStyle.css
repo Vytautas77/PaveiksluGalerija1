@@ -1,0 +1,22 @@
+.delButton{
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+}
+.delBtn{
+    width: 200px;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    background-color: #FF387E;
+    border: none;
+    cursor: pointer;
+}
+.delBtn:hover{
+    background-color: #300a17;
+}
