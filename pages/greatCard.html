@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paveikslų galerija</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style/inputStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -33,11 +34,19 @@
                 <a href="./greatCard.html"><button class="addBtn" id="addBtn">Įkelti</button></a>
             </div>
         </nav>
-
     </header>
+<main class="inputBox">
+    <input type="text" id="AuthorAdd" class="AuthorAdd" placeholder="Įveskite kūrinio autorių">
+    <input type="text" id="PictuteNameAdd" class="PictuteNameAdd" placeholder="Įveskite kūrinio pavadinimą">
+    <input type="text" id="priceAdd" class="priceAdd" placeholder="Įvesto kūrinio kaina">
+    <input type="text" id="paintingStyleAdd" class="paintingStyleAdd" placeholder="Įvesto kūrinio tapybos stilius">
+    <input type="text" id="dimensionsAdd" class="dimensionsAdd" placeholder="Įvesto kūrinio matmenys">
+    <input type="text" id="aboutAuthorAdd" class="aboutAuthorAdd" placeholder="Trumpai apie kūrinio autorių">
+    <input type="text" id="pictureUrlAdd" class="pictureUrlAdd" placeholder="Kūrinio nuorodos URL">
+    <button id="buttonAdd" class="buttonAdd">Įkelti kūrinį</button>
+</main>
+    <div id="infoMesenger" class="infoMesenger"></div>
 
-    <div></div>
-
-    <script type="module" src="../src/gallery.js"></script>
+    <script type="module" src="../src/inputJS.js"></script>
 </body>
 </html>
