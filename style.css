@@ -1,10 +1,19 @@
 body{
 margin: 0;
 font-family: 'Comfortaa', cursive;
+min-width: 450px;
+padding-bottom: 5rem;
 }
 header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 450px;
+    background-color: rgba(255, 255, 255, 0.329);
     padding-left: 2rem;
     padding-right: 2rem;
+    position: fixed;
+    box-sizing: border-box;
 }
 .languageBar{
     display: flex;
@@ -16,6 +25,8 @@ header{
     display: flex;
     gap: 0.5rem;
     list-style: none;
+    margin: 0;
+    margin-top: 1rem;
 }
 
 .laguageFlag li a img{
@@ -29,7 +40,17 @@ header{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #FF387E;
-    padding-bottom: 1rem;
+}
+.navbarContent1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarContent1 a{
+    display: none;
+}
+.navbarContent1 a img{
+    width: 40px;
 }
 .navbarContent{
 display: flex;
@@ -71,6 +92,7 @@ gap: 3rem;
     width: 100px;
 }
 .wrapper{
+    margin-top: 6rem;
     padding: 2rem 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -118,4 +140,32 @@ gap: 3rem;
     flex-direction: column;
     align-items: start;
     margin-left: 1rem;
+}
+
+@media screen and (max-width: 940px) {
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+    .navbarContent{
+        display: none;
+    }
+    .navbarContent1 a{
+        display: block;
+    }
+}
+@media screen and (max-width: 520px){
+    .navbarHref{
+        gap: 0.5rem;
+    }
+    .navbarHref a img{
+        width: 1.3rem;
+    }
+    .addBtn{
+        width: 4rem;
+        border-radius: 1rem;
+        font-size: 0.8rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+
+    }
 }
