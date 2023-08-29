@@ -2,10 +2,9 @@
     background-color: #f8e8ed;
     margin-left: 2rem;
     margin-right: 2rem;
-    height: 17rem;
     padding: 1rem 2rem;
     box-sizing: border-box;
-    margin-top: 2rem;
+    margin-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,4 +12,12 @@
 }
 h3 a{
     color: #FF387E;
+}
+@media screen and (max-width: 605px){
+    h1{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
 }

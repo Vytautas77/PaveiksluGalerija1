@@ -1,0 +1,15 @@
+.galleryWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    margin-top: 6rem;
+}
+.picture{
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
